@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2101D1551C4C3A3C00EC0141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101D1541C4C3A3C00EC0141 /* AppDelegate.swift */; };
+		2101D1571C4C3A3C00EC0141 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101D1561C4C3A3C00EC0141 /* FirstViewController.swift */; };
+		2101D1591C4C3A3C00EC0141 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101D1581C4C3A3C00EC0141 /* PersonalViewController.swift */; };
+		2101D15C1C4C3A3C00EC0141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2101D15A1C4C3A3C00EC0141 /* Main.storyboard */; };
+		2101D15E1C4C3A3C00EC0141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2101D15D1C4C3A3C00EC0141 /* Assets.xcassets */; };
+		2101D1611C4C3A3C00EC0141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2101D15F1C4C3A3C00EC0141 /* LaunchScreen.storyboard */; };
+		2101D16C1C4C3A3C00EC0141 /* SpinachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101D16B1C4C3A3C00EC0141 /* SpinachTests.swift */; };
+		2101D1771C4C3A3C00EC0141 /* SpinachUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101D1761C4C3A3C00EC0141 /* SpinachUITests.swift */; };
+		219FDF641C4D86D8004C0306 /* Personal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219FDF621C4D86D8004C0306 /* Personal.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2101D1681C4C3A3C00EC0141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2101D1491C4C3A3B00EC0141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2101D1501C4C3A3B00EC0141;
+			remoteInfo = Spinach;
+		};
+		2101D1731C4C3A3C00EC0141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2101D1491C4C3A3B00EC0141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2101D1501C4C3A3B00EC0141;
+			remoteInfo = Spinach;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2101D1511C4C3A3C00EC0141 /* Spinach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spinach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2101D1541C4C3A3C00EC0141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2101D1561C4C3A3C00EC0141 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2101D1581C4C3A3C00EC0141 /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		2101D15B1C4C3A3C00EC0141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2101D15D1C4C3A3C00EC0141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2101D1601C4C3A3C00EC0141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2101D1621C4C3A3C00EC0141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2101D1671C4C3A3C00EC0141 /* SpinachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinachTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2101D16B1C4C3A3C00EC0141 /* SpinachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinachTests.swift; sourceTree = "<group>"; };
+		2101D16D1C4C3A3C00EC0141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2101D1721C4C3A3C00EC0141 /* SpinachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinachUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2101D1761C4C3A3C00EC0141 /* SpinachUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinachUITests.swift; sourceTree = "<group>"; };
+		2101D1781C4C3A3C00EC0141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219FDF631C4D86D8004C0306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Spinach/Base.lproj/Personal.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2101D14E1C4C3A3B00EC0141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2101D1641C4C3A3C00EC0141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2101D16F1C4C3A3C00EC0141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2101D1481C4C3A3B00EC0141 = {
+			isa = PBXGroup;
+			children = (
+				2101D1531C4C3A3C00EC0141 /* Spinach */,
+				2101D16A1C4C3A3C00EC0141 /* SpinachTests */,
+				2101D1751C4C3A3C00EC0141 /* SpinachUITests */,
+				2101D1521C4C3A3C00EC0141 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2101D1521C4C3A3C00EC0141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2101D1511C4C3A3C00EC0141 /* Spinach.app */,
+				2101D1671C4C3A3C00EC0141 /* SpinachTests.xctest */,
+				2101D1721C4C3A3C00EC0141 /* SpinachUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2101D1531C4C3A3C00EC0141 /* Spinach */ = {
+			isa = PBXGroup;
+			children = (
+				219FDF611C4D8533004C0306 /* Personal */,
+				2101D1541C4C3A3C00EC0141 /* AppDelegate.swift */,
+				2101D1561C4C3A3C00EC0141 /* FirstViewController.swift */,
+				2101D15A1C4C3A3C00EC0141 /* Main.storyboard */,
+				2101D15D1C4C3A3C00EC0141 /* Assets.xcassets */,
+				2101D15F1C4C3A3C00EC0141 /* LaunchScreen.storyboard */,
+				2101D1621C4C3A3C00EC0141 /* Info.plist */,
+			);
+			path = Spinach;
+			sourceTree = "<group>";
+		};
+		2101D16A1C4C3A3C00EC0141 /* SpinachTests */ = {
+			isa = PBXGroup;
+			children = (
+				2101D16B1C4C3A3C00EC0141 /* SpinachTests.swift */,
+				2101D16D1C4C3A3C00EC0141 /* Info.plist */,
+			);
+			path = SpinachTests;
+			sourceTree = "<group>";
+		};
+		2101D1751C4C3A3C00EC0141 /* SpinachUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2101D1761C4C3A3C00EC0141 /* SpinachUITests.swift */,
+				2101D1781C4C3A3C00EC0141 /* Info.plist */,
+			);
+			path = SpinachUITests;
+			sourceTree = "<group>";
+		};
+		219FDF611C4D8533004C0306 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				219FDF621C4D86D8004C0306 /* Personal.storyboard */,
+				2101D1581C4C3A3C00EC0141 /* PersonalViewController.swift */,
+			);
+			name = Personal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2101D1501C4C3A3B00EC0141 /* Spinach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2101D17B1C4C3A3C00EC0141 /* Build configuration list for PBXNativeTarget "Spinach" */;
+			buildPhases = (
+				2101D14D1C4C3A3B00EC0141 /* Sources */,
+				2101D14E1C4C3A3B00EC0141 /* Frameworks */,
+				2101D14F1C4C3A3B00EC0141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spinach;
+			productName = Spinach;
+			productReference = 2101D1511C4C3A3C00EC0141 /* Spinach.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2101D1661C4C3A3C00EC0141 /* SpinachTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2101D17E1C4C3A3C00EC0141 /* Build configuration list for PBXNativeTarget "SpinachTests" */;
+			buildPhases = (
+				2101D1631C4C3A3C00EC0141 /* Sources */,
+				2101D1641C4C3A3C00EC0141 /* Frameworks */,
+				2101D1651C4C3A3C00EC0141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2101D1691C4C3A3C00EC0141 /* PBXTargetDependency */,
+			);
+			name = SpinachTests;
+			productName = SpinachTests;
+			productReference = 2101D1671C4C3A3C00EC0141 /* SpinachTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2101D1711C4C3A3C00EC0141 /* SpinachUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2101D1811C4C3A3C00EC0141 /* Build configuration list for PBXNativeTarget "SpinachUITests" */;
+			buildPhases = (
+				2101D16E1C4C3A3C00EC0141 /* Sources */,
+				2101D16F1C4C3A3C00EC0141 /* Frameworks */,
+				2101D1701C4C3A3C00EC0141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2101D1741C4C3A3C00EC0141 /* PBXTargetDependency */,
+			);
+			name = SpinachUITests;
+			productName = SpinachUITests;
+			productReference = 2101D1721C4C3A3C00EC0141 /* SpinachUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2101D1491C4C3A3B00EC0141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Raynald Chung";
+				TargetAttributes = {
+					2101D1501C4C3A3B00EC0141 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2G692QTB64;
+					};
+					2101D1661C4C3A3C00EC0141 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2G692QTB64;
+						TestTargetID = 2101D1501C4C3A3B00EC0141;
+					};
+					2101D1711C4C3A3C00EC0141 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2G692QTB64;
+						TestTargetID = 2101D1501C4C3A3B00EC0141;
+					};
+				};
+			};
+			buildConfigurationList = 2101D14C1C4C3A3B00EC0141 /* Build configuration list for PBXProject "Spinach" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2101D1481C4C3A3B00EC0141;
+			productRefGroup = 2101D1521C4C3A3C00EC0141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2101D1501C4C3A3B00EC0141 /* Spinach */,
+				2101D1661C4C3A3C00EC0141 /* SpinachTests */,
+				2101D1711C4C3A3C00EC0141 /* SpinachUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2101D14F1C4C3A3B00EC0141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2101D1611C4C3A3C00EC0141 /* LaunchScreen.storyboard in Resources */,
+				2101D15E1C4C3A3C00EC0141 /* Assets.xcassets in Resources */,
+				219FDF641C4D86D8004C0306 /* Personal.storyboard in Resources */,
+				2101D15C1C4C3A3C00EC0141 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2101D1651C4C3A3C00EC0141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2101D1701C4C3A3C00EC0141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2101D14D1C4C3A3B00EC0141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2101D1591C4C3A3C00EC0141 /* PersonalViewController.swift in Sources */,
+				2101D1551C4C3A3C00EC0141 /* AppDelegate.swift in Sources */,
+				2101D1571C4C3A3C00EC0141 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2101D1631C4C3A3C00EC0141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2101D16C1C4C3A3C00EC0141 /* SpinachTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2101D16E1C4C3A3C00EC0141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2101D1771C4C3A3C00EC0141 /* SpinachUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2101D1691C4C3A3C00EC0141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2101D1501C4C3A3B00EC0141 /* Spinach */;
+			targetProxy = 2101D1681C4C3A3C00EC0141 /* PBXContainerItemProxy */;
+		};
+		2101D1741C4C3A3C00EC0141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2101D1501C4C3A3B00EC0141 /* Spinach */;
+			targetProxy = 2101D1731C4C3A3C00EC0141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2101D15A1C4C3A3C00EC0141 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2101D15B1C4C3A3C00EC0141 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2101D15F1C4C3A3C00EC0141 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2101D1601C4C3A3C00EC0141 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		219FDF621C4D86D8004C0306 /* Personal.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219FDF631C4D86D8004C0306 /* Base */,
+			);
+			name = Personal.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2101D1791C4C3A3C00EC0141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2101D17A1C4C3A3C00EC0141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2101D17C1C4C3A3C00EC0141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spinach/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = raynald.Spinach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2101D17D1C4C3A3C00EC0141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spinach/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = raynald.Spinach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2101D17F1C4C3A3C00EC0141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpinachTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = raynald.SpinachTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spinach.app/Spinach";
+			};
+			name = Debug;
+		};
+		2101D1801C4C3A3C00EC0141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpinachTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = raynald.SpinachTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spinach.app/Spinach";
+			};
+			name = Release;
+		};
+		2101D1821C4C3A3C00EC0141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpinachUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = raynald.SpinachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Spinach;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2101D1831C4C3A3C00EC0141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpinachUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = raynald.SpinachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Spinach;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2101D14C1C4C3A3B00EC0141 /* Build configuration list for PBXProject "Spinach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2101D1791C4C3A3C00EC0141 /* Debug */,
+				2101D17A1C4C3A3C00EC0141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2101D17B1C4C3A3C00EC0141 /* Build configuration list for PBXNativeTarget "Spinach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2101D17C1C4C3A3C00EC0141 /* Debug */,
+				2101D17D1C4C3A3C00EC0141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2101D17E1C4C3A3C00EC0141 /* Build configuration list for PBXNativeTarget "SpinachTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2101D17F1C4C3A3C00EC0141 /* Debug */,
+				2101D1801C4C3A3C00EC0141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2101D1811C4C3A3C00EC0141 /* Build configuration list for PBXNativeTarget "SpinachUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2101D1821C4C3A3C00EC0141 /* Debug */,
+				2101D1831C4C3A3C00EC0141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2101D1491C4C3A3B00EC0141 /* Project object */;
+}
